@@ -1,0 +1,49 @@
+
+1) number  -->	It is used to represent both "Integer" as well as "Floating-Point" numbers
+---------------
+2) boolean -->	Represents "true" and "false"
+---------------
+3) string  -->	It is used to represent a sequence of characters
+---------------
+4) void    -->	Generally used on "function" return-types
+---------------
+5) null    -->	It is used when an "object" does "not have any value"
+---------------
+6) undefined -->	Denotes value given to "uninitialized" variable
+---------------
+7) any     -->	If a variable is declared with any data type then "any type" of value can be assigned to that variable
+
+
+// -----------------------------------------------------------------------
+
+
+let a: null = null; 👈
+
+let b: number = 123; 👈
+
+let c: number = 123.456; 👈
+
+let d: string = ‘Geeks’; 👈
+
+let e: undefined = undefined; 👈
+
+let f: boolean = true; 👈
+
+let g: number = 0b111001; // Binary 👈
+
+let h: number = 0o436; // Octal 👈
+
+let i: number = 0xadf0d; // Hexa-Decimal 👈
+
+---------------------------------------------------
+
+// 👉👉👉👉👉 "any" 👈👈👈👈👈 datatype 
+
+// Purpose 3)
+
+export function ManusAge2(Manus2 : any) : string{ // "any" also be an "data type"
+    return "Hello Your age "+Manus2;
+}
+console.log('Answer2 --> ', ManusAge2(55));
+
+

@@ -1,0 +1,34 @@
+
+    To remove node Module
+
+    rm -r node_modules/
+
+    1)
+
+    npm install -g tsc       // if not work then // tsc --> typescript compiler
+
+    // or
+
+    npm install tsc
+
+    after that --->   👉👉   tsc init  👈 which create tsconfig file.
+
+    2) https://youtu.be/rjzDXOFdfGE?si=BJolfBE8cjzZu75N
+
+    ☝️☝️☝️☝️ follow above video to resolve error
+
+    3) 👉👉👉👉 "To run file" ----> after follow all above things
+
+    in cmd type -------->   tsc
+
+    It will generate an👉 "js" file of same👉 "ts" file
+
+<!-- ------------------------------------------------------------------- -->
+
+👉👉👉👉 👉👉👉👉 2. Interface 👈👈👈👈 👈👈👈👈
+
+So interface is one who, we use to define an 👉 "Datatype of containt inside Obj {} " 👈
+
+Seee Ex. in interface.ts file.
+
+
